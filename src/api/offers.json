@@ -1,0 +1,18 @@
+[
+    {
+    "title": "Empresarial",
+    "text": "A velocidade perfeita para sua empresa, comporta a necessidade de diversos dispositivos simultâneos.",
+    "image":"images/empresarial.jpg"
+    },
+    {
+    "title": "Residencial",
+    "text": "A velocidade ideal para a sua família, navegue tranquilamente juntamente com as pessoas que ama.",
+    "image":"images/residencial.jpg"
+    },
+    
+    {
+    "title": "Gamer",
+    "text": "A valocidade ideal para baixar e jogar jogos, chega de lag na hora da gameplay.",
+    "image":"images/gamer.jpg"
+    }
+]
