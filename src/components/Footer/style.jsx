@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: var(--cor-texto-card);
     position: fixed;
     bottom: 0;
     background-color: var(--cor-bg-principal);
