@@ -15,7 +15,7 @@ export const OfferContainer = styled.figure`
 
     span,h2 {
         z-index: 1;
-        color: #fff;
+        color: var(--cor-texto-card);
     }
 
     span,h2,img {

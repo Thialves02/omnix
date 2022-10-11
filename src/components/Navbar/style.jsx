@@ -1,7 +1,8 @@
 import styled from "styled-components"
+import { media } from "../../assets/style/media"
 
 export const NavbarContainer = styled.header`
-    position: fixed;
+    
     width: 100%;
     background-color: var(--cor-bg-principal);
     display: flex;
@@ -11,5 +12,9 @@ export const NavbarContainer = styled.header`
 
     img {
         height: 60%;
+    }
+
+    ${media('tablet')}{
+        position: fixed;
     }
 `

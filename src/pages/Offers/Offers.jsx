@@ -1,13 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { Api } from '../../api/Api'
 import Offer from '../../components/Offer/Offer'
 import offers from '../../api/offers.json'
-import { OffersContainer, Offerss } from './style'
+import { AllOffers, OffersContainer } from './style'
 import Button from '../../components/Button/Button'
 import { useNavigate } from 'react-router-dom';
 import { Context } from '../../context/CtxApp'
 
-export default function Offers() {
+export default function OffersComponent() {
     const { endereco } = useContext(Context)
     const navigate = useNavigate();
 
@@ -19,7 +18,7 @@ export default function Offers() {
         <>
             <OffersContainer>
                 <span>Ofertas disponíveis no endereço : {endereco}</span>
-                <Offers>
+                <AllOffers>
                     {
                         offers?.map((offer, index) =>
                             <Offer
@@ -30,12 +29,13 @@ export default function Offers() {
                             />
                         )
                     }
-                </Offers>
+                </AllOffers>
             </OffersContainer>
             <Button
                 label="Ops, errei meu CEP!"
                 name="voltaHome"
                 onClick={redirectHome}
+                className="fixed"
             />
         </>
     )

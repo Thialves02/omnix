@@ -1,8 +1,8 @@
 import styled from "styled-components"
 import { media } from "../../assets/style/media"
 
-export const OffersContainer = styled.div`
-    height: 100vh;
+export const OffersContainer = styled.main`
+    height: calc(100vh - 130px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +14,12 @@ export const OffersContainer = styled.div`
         padding: 20px;
         font-weight: bold;
     }
+
+    ${media("tablet")}{
+        height: 100vh;
+    }
 `
-export const Offers = styled.div`
+export const AllOffers = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
