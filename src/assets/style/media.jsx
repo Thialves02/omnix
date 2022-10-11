@@ -8,5 +8,5 @@ const screenSizes = {
 }
 
 export const media = label => {
-    return css` @media (max-width:${screenSizes[label]}px)`
+    return css` @media (min-width:${screenSizes[label]}px)`
 }

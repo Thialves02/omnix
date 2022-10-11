@@ -12,4 +12,9 @@ export default createGlobalStyle`
         height: 100vh;
         background-color: #dddddd;
     }
+
+    :root{
+        --cor-bg-principal: #101010;
+        --cor-texto-card: #ffff;
+    }
 `
