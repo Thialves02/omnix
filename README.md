@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Omnix" src="./src/assets/images/logo.png" width="300px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Omnix Planos de Internet
 
-## Available Scripts
+O objetivo da aplicação é simular uma prestadora de serviços relacionados a internet. O usuário faz um cadastro digitando seu nome e CEP, caso o CEP seja válido o usuário pe redirecionado para uma página com os planos de internet disnponíveis.
 
-In the project directory, you can run:
+<h1 align="center">
+    <img alt="Omnix" src="./src/assets/images/desktop.png" width="500px" />
+</h1>
 
-### `npm start`
+# O que eu usei?:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+<li>React</li>
+<li>React Router Dom</li>
+<li>React Hooks</li>
+<li>Context API</li>
+<li>Styled Components</li>
+<li>Mobile First</li>
+<li>Consumo de API's REST</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Demo 📸
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center" >
+  <img src="./src/assets/images/desktop.gif" alt="demo-desktop" height="425">
+</div>
 
-### `npm run build`
+# Pré requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você deve ter essas ferramentas instaladas na sua máquina : Git, Node.js e Yarn ou Npm.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Rodando o App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.Clone o projeto
 
-### `npm run eject`
+```bash
+# Execute esse comando utilizando git bash
+$ git clone https://github.com/Thialves02/omnix.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.Entre na pasta clonada e execute os seguintes comandos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Instalar as dependências
+$ yarn install
+$ npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3.Rode a aplicação
+```bash
+#Abra o app no seu navegador
+$ yarn start
+$ npm start
+```
